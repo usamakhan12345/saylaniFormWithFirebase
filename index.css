@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head > img {
+    text-align: center;
+    justify-items: center   ;
+    padding-left: 540px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.head > h3 {
+    text-align: center;
+    font-weight: bold ;
+    font-size: 30px;
+}
+#btn{
+    position: absolute;
+    top: 16%;
+    left: 70%;
+    border-radius: 10px;
+    width: 130px;
+    
+    border-color: solid blue;
+    color: blue;
+    border: 2px blue;
+
+}
+input::placeholder{
+    padding-left: 24px;
+}
+#service{
+    text-align: center;
+    margin-top: 10px;
+}
+.btnList{
+    list-style-type: none;
+    text-align: center;
+}
+.btnList > li {
+    display: inline-block;
+}
+#btn1{
+    width: 180px;
+}
+#btn2{
+    width: 170px;
+}
+#btn3{
+    width: 100px;
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px 70px;
+    padding: 5px;
+}
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-color:  lightgreen;
+    border: 1px solid rgb(99, 179, 99);
+}
+.full{
+    width: 1080px;
+    
+}
+.Qualifiaction{
+    width: 1090px;
+    height: 50px;
+    border-radius: 10px ;
+    margin-left: 50px;
+}
+#QualifiactionLabel{
+    margin-left: 60px;
+}
+
+label{
+    color: blue;
+    
+}
+
+#Qualifiaction{
+    margin-right: 33px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    background: whitesmoke;
+    margin-right: 15px;
+}
+.picText{
+    font-size: 15px;
+}
+.picContainer{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+#picLabel{
+    margin-left: 130px;
+}
+#upload{
+    position: relative;
+    top: 50%;
+    left: 20%;
+    font-size: 15px;
+}
+.instructions{
+    display: flex;
+     width: 1100px;
+    height: 200px ;
+    margin-top: 10px;
+    margin-left: 110px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px whitesmoke;
+}
+#submitBtn{
+    width: 1100px;
+    background-color: rgb(84, 119, 235);    
+    color: whitesmoke;
+    height: 40px;
+    margin-bottom: 50px;
+    border-color:  rgb(26, 71, 218);  
+    border-radius: 5px;
+    margin-left: 110px;
+    font-size: 17px;
+
+
+}
