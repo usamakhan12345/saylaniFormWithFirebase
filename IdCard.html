@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+
+        <img src="th.jpeg" alt="">
+        <h3>Course Registration Form</h3><button class="btn" id="btn"><i class="fa-duotone fa-user fa-xl"></i> Student
+            Portal</button>
+        <!-- <ul class="iconList">
+            <li><i class="fa-brands fa-facebook"></i></li>
+        </ul> -->
+        <p id="service">Services-Education-Registration</p>
+        <ul class="btnList">
+            <li><button class="btn text-primary"  id="btn1">New Application</button></li>
+            <li><button class="btn text-primary" >Download ID Card</button></li>
+            <li><button class="btn text-primary" id="btn3">Results</button></li>
+
+        </ul>
+    </div>
+        <div class="container ">
+            <div class="row  justify-content-center">
+                <div class="col-xs-12  col-lg-6">
+                    
+            <div id="loader" class="spinner-border m-5 " role="status">
+                <span  class="visually-hidden ">Loading...</span>
+            </div>
+                    <label class="my-1 w-100" for="">CNIC</label>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <input id="cnicNum" class="w-100" type="number">
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <button id="idcardBtn" class="btn btn-primary w-100">Submit</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 idlist bg-light w-100 mt-1 lh-3 align-items-center">
+                           <ul>
+                            <li class="fw-bold">Course</li>
+                            <li id="action" class="fw-bold">Action</li>
+                        </ul> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="courseList" class="col-xs-12 idlist bg-light w-100 mt-1 lh-3 align-items-center ">
+                            
+                           <!-- <ul>
+                            <li>Web and mobile app development</li>
+                            <li id="action"><button class="btn btn-primary text-light" onClick="downloadIdCard(999)">Download</button></li>
+                        </ul>  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</body>
+</html>
